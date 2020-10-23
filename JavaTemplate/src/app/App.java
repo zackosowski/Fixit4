@@ -1,9 +1,9 @@
 /*
 FIXIT 4
 
-The program below takes a word submitted by the user and counts the number oif letters in the word.
-The problem is that it does not store this data and does not output the answer to the user.
-Change this program so that it outputs the number of letters in the word to the user.
+The program below takes a word submitted by the user and spells it back to the user.
+Change this program tpop instead tell the user how many vowels are in the word.
+For this activity, assume that "y" is not a vowel.
 
 */
 
@@ -19,7 +19,12 @@ public class App {
         System.out.println("Enter a word");
         String word = input.nextLine();
 
+        System.out.println("The word " + word + " is spelled:");
+
         for (int i = 0; i < word.length(); i++) {
+
+            System.out.println(word.charAt(i));
+
 
         }
 
